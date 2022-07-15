@@ -25,8 +25,7 @@ class MainActivity : AppCompatActivity() {
         val diceRollButton: Button = findViewById(R.id.button)
 
         diceRollButton.setOnClickListener {
-            val textViewResult: TextView = findViewById(R.id.textView)
-            textViewResult.text = "6"
+            diceRoll()
         }
     }
 }
